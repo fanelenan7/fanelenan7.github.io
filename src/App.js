@@ -1,15 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
-import Home from './Home';
+import Pages from './Pages';
+import Footer from './Footer';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Home />
-      </div>
-    );
-  }
-}
+import './App.scss';
+
+const App = () => (
+  <BrowserRouter>
+    <div className="app">
+      <Pages />
+      <Footer />
+    </div>
+  </BrowserRouter>
+)
 
 export default App;

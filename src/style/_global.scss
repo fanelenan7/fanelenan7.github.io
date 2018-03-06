@@ -1,3 +1,17 @@
+body {
+  height: 100vh;
+  color: $color-white;
+  font-family: $fontStack-Default;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-image: linear-gradient(to right, #FF837D 0%, #FF5E8A 100%);
+  cursor: default;
+  @media ($media-middle) {
+    background-image: url('./assets/arrows.png'), linear-gradient(to right, #FF837D 0%, #FF5E8A 100%);
+  }
+}
+
 p {
   margin: 15px;
   font-size: 18px;
@@ -6,4 +20,27 @@ p {
   @media ($media-middle) {
     font-size: 16px;
   }
+}
+
+hr {
+  width: 40%;
+  height: 1px;
+  border: 0;
+  background-color: $color-white;
+  margin-top: $gutter-small;
+  margin-bottom: $gutter-small;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: inherit;
+}
+
+.hl {
+  background-color: $color-green;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: $color-black;
+  box-shadow: 5px 8px 10px -8px $color-black;
 }
