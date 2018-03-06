@@ -1,0 +1,29 @@
+@import './style/_util.scss';
+
+.skills {
+  text-align: center;
+}
+
+h1 {
+  margin-left: $gutter-small;
+}
+
+.skills__sections {
+  @media ($media-middle) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: $gutter-large;
+  }
+}
+
+.skills__section__tech {
+  @media ($media-middle) {
+    text-align: right;
+  }
+}
+
+.skills__section__additional {
+  @media ($media-middle) {
+    text-align: left;
+  }
+}

@@ -5,9 +5,9 @@ import './Home.scss';
 
 const Home = () => (
   <article className="home">
-    <header className="home__header">
+    <h1 className="home__header">
       Lena Santana
-    </header>
+    </h1>
     <section className="home__intro">
       <img src={portrait} alt="Lena's portrait" className="home__intro__portrait" />
       <p className="home__intro__paragraph">
