@@ -18,6 +18,9 @@ h1 {
 
 .skills__section__tech {
   @media ($media-middle) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     text-align: right;
   }
 }
@@ -26,4 +29,8 @@ h1 {
   @media ($media-middle) {
     text-align: left;
   }
+}
+
+.skills__sections__icon {
+  height: 50px;
 }

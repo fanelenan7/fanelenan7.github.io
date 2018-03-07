@@ -12,6 +12,6 @@ const NotFound = () => (
       <Link to="/" className="hl">Head back</Link>
     </p>
   </article>
-)
+);
 
 export default NotFound;

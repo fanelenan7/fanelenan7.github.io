@@ -1,5 +1,7 @@
 import React from 'react';
 
+import glasses from './assets/glasses.png';
+import tag from './assets/tag.png';
 import './Skills.scss';
 
 const Skills = () => (
@@ -9,6 +11,7 @@ const Skills = () => (
     </h1>
     <section className="skills__sections">
       <div className="skills__section__tech">
+        <img src={tag} className="skills__sections__icon" alt="html tag icon" />
         <h2>technical skills</h2>
         <ul>
           <li>JavaScript</li>
@@ -17,11 +20,11 @@ const Skills = () => (
           <li>CSS / SCSS</li>
           <li>HTML</li>
           <li>Webpack</li>
-          <li>API</li>
           <li>jQuery</li>
         </ul>
       </div>
       <div className="skills__section__additional">
+        <img src={glasses} className="skills__sections__icon" alt="glasses icon" />
         <h2>additional skills</h2>
         <ul>
           <li>Graphic Design</li>
@@ -34,6 +37,6 @@ const Skills = () => (
       </div>
     </section>
   </article>
-)
+);
 
 export default Skills;
