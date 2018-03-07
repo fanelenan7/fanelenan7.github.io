@@ -32,12 +32,15 @@ p {
 }
 
 hr {
-  width: 40%;
+  width: 60%;
   height: 1px;
   border: 0;
   background-color: $color-white;
   margin-top: $gutter-small;
   margin-bottom: $gutter-small;
+  @media ($media-middle) {
+    width: 40%;
+  }
 }
 
 a {

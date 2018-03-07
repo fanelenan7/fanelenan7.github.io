@@ -6,7 +6,7 @@ import './Skills.scss';
 
 const Skills = () => (
   <article className="skills">
-    <h1>
+    <h1 className="skills__title">
       Skills
     </h1>
     <section className="skills__sections">
