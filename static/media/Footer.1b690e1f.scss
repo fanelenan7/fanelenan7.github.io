@@ -1,0 +1,24 @@
+@import './style/util';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $gutter-small;
+}
+
+.footer__nav__link:not(:first-of-type) {
+  margin-left: $gutter-small;
+}
+
+.footer__nav__link {
+  padding: 3px;
+}
+
+.footer__nav__link:hover {
+  background-color: $color-green;
+  color: $color-black;
+  box-shadow: 5px 8px 10px -7px $color-black;
+  transition: 0.2s ease;
+}
