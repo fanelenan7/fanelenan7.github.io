@@ -53,8 +53,9 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js --history-api-fallback",
+    "build": "node scripts/build.js build-css",
     "test": "node scripts/test.js --env=jsdom",
+    "build-css": "node-sass src/ -o src/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
