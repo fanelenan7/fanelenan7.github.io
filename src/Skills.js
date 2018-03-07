@@ -11,7 +11,8 @@ const Skills = () => (
     </h1>
     <section className="skills__sections">
       <div className="skills__section__tech">
-        <img src={tag} className="skills__sections__icon" alt="html tag icon" />
+        <i className="fa fa-code fa-3x"></i>
+        {/* <img src={tag} className="skills__sections__icon" alt="html tag icon" /> */}
         <h2>technical skills</h2>
         <ul>
           <li>JavaScript</li>
@@ -24,14 +25,15 @@ const Skills = () => (
         </ul>
       </div>
       <div className="skills__section__additional">
-        <img src={glasses} className="skills__sections__icon" alt="glasses icon" />
+        <i className="fa fa-bolt fa-3x"></i>
+        {/* <img src={glasses} className="skills__sections__icon" alt="glasses icon" /> */}
         <h2>additional skills</h2>
         <ul>
           <li>Graphic Design</li>
           <li>Adobe Creative Suite</li>
           <li>Sketch</li>
           <li>Agile Methodologies</li>
-          <li>Bilingual (Russian / English)</li>
+          <li>Bilingual (English / Russian)</li>
           <li>Nerd Power</li>
         </ul>
       </div>

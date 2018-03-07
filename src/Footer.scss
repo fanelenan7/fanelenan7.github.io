@@ -19,6 +19,17 @@
 .footer__nav__link:hover {
   background-color: $color-green;
   color: $color-black;
-  box-shadow: 5px 8px 10px -7px $color-black;
+  box-shadow: 5px 8px 10px -7px $color-gray;
+  transition: 0.5s ease;
+}
+
+.footer__links__link {
+  margin: $gutter-small;
+  text-shadow: 2px 2px 5px $color-gray;
   transition: 0.2s ease;
+}
+
+.footer__links__link:hover {
+  color: $color-green;
+  text-shadow: 2px 2px 1px $color-gray;
 }
