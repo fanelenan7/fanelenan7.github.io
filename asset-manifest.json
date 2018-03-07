@@ -1,12 +1,15 @@
 {
-  "main.css": "static/css/main.99aad95a.css",
-  "main.css.map": "static/css/main.99aad95a.css.map",
-  "main.js": "static/js/main.4b086091.js",
-  "main.js.map": "static/js/main.4b086091.js.map",
-  "static/media/OpenSans-Light.ttf": "static/media/OpenSans-Light.9ff12f69.ttf",
-  "static/media/OpenSans-Regular.ttf": "static/media/OpenSans-Regular.d7d5d458.ttf",
-  "static/media/arrows.png": "static/media/arrows.2edbccd8.png",
+  "main.js": "static/js/main.ef7edd26.js",
+  "main.js.map": "static/js/main.ef7edd26.js.map",
+  "static/media/App.scss": "static/media/App.d6f736e4.scss",
+  "static/media/Contact.scss": "static/media/Contact.f675d3f1.scss",
+  "static/media/Footer.scss": "static/media/Footer.1b690e1f.scss",
+  "static/media/Home.scss": "static/media/Home.928b30fe.scss",
+  "static/media/NotFound.scss": "static/media/NotFound.dd3eb482.scss",
+  "static/media/Pages.scss": "static/media/Pages.b593d9f8.scss",
+  "static/media/Skills.scss": "static/media/Skills.1536008c.scss",
   "static/media/glasses.png": "static/media/glasses.d998ed9e.png",
+  "static/media/index.scss": "static/media/index.9e562277.scss",
   "static/media/portrait.jpg": "static/media/portrait.c0ec9812.jpg",
   "static/media/tag.png": "static/media/tag.43ce8daa.png"
 }
