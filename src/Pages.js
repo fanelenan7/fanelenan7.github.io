@@ -7,7 +7,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import NotFound from './NotFound';
 
-import './Pages.scss';
+import './Pages.css';
 
 const Pages = () => (
   <div className="pages">

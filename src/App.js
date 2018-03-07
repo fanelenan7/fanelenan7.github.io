@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Pages from './Pages';
 import Footer from './Footer';
 
-import './App.scss';
+import './App.css';
 
 const App = () => (
   <BrowserRouter>

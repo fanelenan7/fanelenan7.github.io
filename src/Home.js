@@ -1,7 +1,7 @@
 import React from 'react';
 
 import portrait from './assets/portrait.jpg'
-import './Home.scss';
+import './Home.css';
 
 const Home = () => (
   <article className="home">

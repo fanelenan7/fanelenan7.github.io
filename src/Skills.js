@@ -2,7 +2,7 @@ import React from 'react';
 
 import glasses from './assets/glasses.png';
 import tag from './assets/tag.png';
-import './Skills.scss';
+import './Skills.css';
 
 const Skills = () => (
   <article className="skills">
