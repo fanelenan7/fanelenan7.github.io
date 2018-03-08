@@ -9,7 +9,7 @@ const Footer = () => (
     <span className="footer__nav">
       <Link to="/" className="footer__nav__link">Home</Link>
       <Link to="/skills" className="footer__nav__link">Skills</Link>
-      <Link to="/projects" className="footer__nav__link">Projects</Link>
+      <Link to="/work" className="footer__nav__link">Work</Link>
       <Link to="/contact" className="footer__nav__link">Contact</Link>
     </span>
     <span className="footer__links">

@@ -1,7 +1,5 @@
 import React from 'react';
 
-import glasses from './assets/glasses.png';
-import tag from './assets/tag.png';
 import './Skills.css';
 
 const Skills = () => (
@@ -12,7 +10,6 @@ const Skills = () => (
     <section className="skills__sections">
       <div className="skills__section__tech">
         <i className="fa fa-code fa-3x"></i>
-        {/* <img src={tag} className="skills__sections__icon" alt="html tag icon" /> */}
         <h2>technical skills</h2>
         <ul>
           <li>JavaScript</li>
@@ -26,7 +23,6 @@ const Skills = () => (
       </div>
       <div className="skills__section__additional">
         <i className="fa fa-bolt fa-3x"></i>
-        {/* <img src={glasses} className="skills__sections__icon" alt="glasses icon" /> */}
         <h2>additional skills</h2>
         <ul>
           <li>Graphic Design</li>

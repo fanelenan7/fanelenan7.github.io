@@ -1,0 +1,24 @@
+@import './style/_util.scss';
+
+.work {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work__prof__list {
+  display: flex;
+  justify-content: center;
+  margin: $gutter-small;
+}
+
+.work__prof__logo {
+  height: 40px;
+}

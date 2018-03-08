@@ -47,6 +47,11 @@ a {
   color: inherit;
   text-decoration: none;
   cursor: inherit;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: $color-green;
 }
 
 .hl {
