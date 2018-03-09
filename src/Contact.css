@@ -1,0 +1,17 @@
+.contact {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.contact__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.contact__main__icon {
+  margin: 12px 12px 12px 0; }
+
+.contact__main__link:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
