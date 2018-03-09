@@ -9,7 +9,7 @@ const Skills = () => (
     </h1>
     <section className="skills__sections">
       <div className="skills__section__tech">
-        <i className="fa fa-code fa-3x"></i>
+        <i className="fa fa-code fa-3x skills__tech__icon"></i>
         <h2>technical skills</h2>
         <ul>
           <li>JavaScript</li>
@@ -22,7 +22,7 @@ const Skills = () => (
         </ul>
       </div>
       <div className="skills__section__additional">
-        <i className="fa fa-bolt fa-3x"></i>
+        <i className="fa fa-bolt fa-3x skills__add__icon"></i>
         <h2>additional skills</h2>
         <ul>
           <li>Graphic Design</li>

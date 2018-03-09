@@ -40,10 +40,10 @@
 
 .work__pers__img {
   width: 300px;
-  margin: 15px;
+  margin-top: 25px;
+  box-shadow: 2px 2px 4px $color-gray;
   @media ($media-middle) {
     width: 300px;
-    padding-top: 10px;
   }
 }
 
@@ -52,3 +52,15 @@
     font-size: 12px;
   }
 }
+
+.work__pers__link {
+  text-decoration: underline;
+}
+
+.work__pers__link:hover {
+  text-shadow: 2px 2px 4px $color-gray;
+}
+
+// .work__pers__img:hover {
+//   box-shadow: 2px 2px 4px $color-gray
+// }

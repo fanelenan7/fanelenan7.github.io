@@ -32,7 +32,9 @@ const Work = () => (
       <h3>learning, experimentation and fun</h3>
       <ul className="work__pers">
         <li className="work__pers__list">
-          <img className="work__pers__img" src={people} alt="People Finder" />
+          <a href="http://people-finder.surge.sh/" className="work__pers__img-link">
+            <img className="work__pers__img" src={people} alt="People Finder" />
+          </a>
           <p className="work__pers__text">
             <a className="work__pers__link" href="http://people-finder.surge.sh/">People Finder</a>,
             a project/code challenge I have completed for Automata Studios. It uses a slightly creepy
@@ -41,7 +43,9 @@ const Work = () => (
             is taken just from publicly available information.</p>
         </li>
         <li className="work__pers__list">
-          <img className="work__pers__img" src={coder} alt="Coder Ipsum" />
+          <a href="http://coder-ipsum.surge.sh/" className="work__pers__img-link">
+            <img className="work__pers__img" src={coder} alt="Coder Ipsum" />
+          </a>
           <p className="work__pers__text">
             <a className="work__pers__link" href="http://coder-ipsum.surge.sh/">Coder Ipsum</a>,
             my final project at General Assembly, a custom lorem ipsum generator. It's just about
@@ -50,7 +54,9 @@ const Work = () => (
             because I didn't understand it. Worked out, since I love React now!</p>
         </li>
         <li className="work__pers__list">
-          <img className="work__pers__img" src={tower} alt="Tower of Hanoi" />
+          <a href="https://panoramic-snakes.surge.sh/" className="work__pers__img-link">
+            <img className="work__pers__img" src={tower} alt="Tower of Hanoi" />
+          </a>
           <p className="work__pers__text">
             <a className="work__pers__link" href="https://panoramic-snakes.surge.sh/">Tower of Hanoi</a>,
             a simple logic game where your goal is to move all the disks from the first field to the last
