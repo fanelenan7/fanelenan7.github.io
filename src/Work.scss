@@ -8,6 +8,7 @@
 }
 
 .work__section {
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,4 +22,33 @@
 
 .work__prof__logo {
   height: 40px;
+}
+
+.work__pers {
+  @media ($media-middle) {
+    width: 60%;
+  }
+}
+
+.work__pers__list {
+  @media ($media-middle) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: $gutter-small;
+  }
+}
+
+.work__pers__img {
+  width: 300px;
+  margin: 15px;
+  @media ($media-middle) {
+    width: 300px;
+    padding-top: 10px;
+  }
+}
+
+.work__pers__text {
+  @media ($media-middle) {
+    font-size: 12px;
+  }
 }
