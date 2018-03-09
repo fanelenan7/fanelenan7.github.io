@@ -1,6 +1,0 @@
-.app {
-  height: 100vh; }
-  @media (min-width: 768px) {
-    .app {
-      display: grid;
-      grid-template-rows: 3fr 1fr; } }
