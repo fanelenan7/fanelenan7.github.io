@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/static/media/OpenSans-Regular.d7d5d458.ttf"
   },
   {
-    "revision": "2edbccd89b6168336bed495f19ffb3e1",
-    "url": "/static/media/arrows.2edbccd8.png"
-  },
-  {
     "revision": "9ff12f694e5951a6f51a9d63b05062e7",
     "url": "/static/media/OpenSans-Light.9ff12f69.ttf"
+  },
+  {
+    "revision": "2edbccd89b6168336bed495f19ffb3e1",
+    "url": "/static/media/arrows.2edbccd8.png"
   },
   {
     "revision": "b5db0e3a9f38b8cfd28c81ef0ec7b389",
