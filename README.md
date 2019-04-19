@@ -1,6 +1,5 @@
 # fanelenan7.github.io
 ### About
-New personal website (2018)
 
 Created with React. Initially started with Create React App, then ejected to modify the setup, specifically for adding Sass.
 I'm a firm believer that we as developers should make our lives easier by leveraging CSS whenever possible (that simple yet sublime thing was taught to me by my former director of development, the amazing [Chris Casciano](https://github.com/placenamehere)).
