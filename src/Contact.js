@@ -26,7 +26,7 @@ const Contact = () => (
         </a>
       </li>
       <li>
-        <a className="contact__main__link" href="https://drive.google.com/file/d/0B4gjTdu9xyyDb3pRMnJ5ekZyS3M/view?usp=sharing">
+        <a className="contact__main__link" href="https://drive.google.com/file/d/1OChf9lSp0HF59OMw-Hf8BnH1joZaia4_/view?usp=sharing">
           <i className="fa fa-file contact__main__icon"></i>
           view / download resume
         </a>
