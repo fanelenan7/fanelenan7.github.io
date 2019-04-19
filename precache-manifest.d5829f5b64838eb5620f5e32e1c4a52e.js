@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/tower-of-hanoi.b177861f.jpg"
   },
   {
-    "revision": "ac9e3db3a71fed2d870c",
+    "revision": "7ed4fd3473d6f54c3f4e",
     "url": "/static/css/main.d5982bce.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/static/media/people-finder.a99fe592.jpg"
   },
   {
-    "revision": "ac9e3db3a71fed2d870c",
-    "url": "/static/js/main.0f553c2f.chunk.js"
+    "revision": "7ed4fd3473d6f54c3f4e",
+    "url": "/static/js/main.0def96eb.chunk.js"
   },
   {
     "revision": "f9839c2de68e9f4884b79fc63e22e789",
@@ -60,10 +60,6 @@ self.__precacheManifest = [
     "url": "/static/media/sculpthouse.c3bffa7e.png"
   },
   {
-    "revision": "d7d5d4588a9f50c99264bc12e4892a7c",
-    "url": "/static/media/OpenSans-Regular.d7d5d458.ttf"
-  },
-  {
     "revision": "9ff12f694e5951a6f51a9d63b05062e7",
     "url": "/static/media/OpenSans-Light.9ff12f69.ttf"
   },
@@ -72,7 +68,11 @@ self.__precacheManifest = [
     "url": "/static/media/arrows.2edbccd8.png"
   },
   {
-    "revision": "b5db0e3a9f38b8cfd28c81ef0ec7b389",
+    "revision": "d7d5d4588a9f50c99264bc12e4892a7c",
+    "url": "/static/media/OpenSans-Regular.d7d5d458.ttf"
+  },
+  {
+    "revision": "d1e0048dbde13700572b76be6a9d8726",
     "url": "/index.html"
   }
 ];
