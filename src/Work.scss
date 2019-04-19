@@ -1,0 +1,70 @@
+@import './style/_util.scss';
+
+.work {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work__section {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work__prof {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.work__prof__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: $gutter-small;
+}
+
+.work__prof__logo {
+  height: 40px;
+}
+
+.work__pers {
+  @media ($media-middle) {
+    width: 60%;
+  }
+}
+
+.work__pers__list {
+  @media ($media-middle) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: $gutter-small;
+  }
+}
+
+.work__pers__img {
+  width: 300px;
+  margin-top: 25px;
+  box-shadow: 2px 2px 4px $color-gray;
+  @media ($media-middle) {
+    width: 300px;
+  }
+}
+
+.work__pers__text {
+  @media ($media-middle) {
+    font-size: 12px;
+  }
+}
+
+.work__pers__link {
+  text-decoration: underline;
+}
+
+.work__pers__link:hover {
+  text-shadow: 2px 2px 4px $color-gray;
+}

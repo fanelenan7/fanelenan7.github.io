@@ -1,68 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# fanelenan7.github.io
+New personal website (2018)
 
-## Available Scripts
+Created with React. Initially started with Create React App, then ejected to modify the setup, specifically for adding Sass.
+I'm a firm believer that we as developers should make our lives easier by leveraging CSS whenever possible (that simple yet sublime thing was taught to me by my former director of development, the amazing [Chris Casciano](https://github.com/placenamehere)). This particular site has like, no moving parts, so state is completely unnecessary, so yay functional components!
 
-In the project directory, you can run:
+I tried to showcase the things I have learned over the last year or so of my professional journey, such as CSS Grid and Mobile-First design, and the progress that I have made. I was pretty amazed by all the things I used to do when I started revamping my old personal site (which was done with just html, css and jQuery), and I hope a year or so later I can do even better.
 
-### `npm start`
+In case you were interested in the work I did, unfortunately my current github repo is not very representative of my current skills... and I can't really show you any actual code from the projects I did over the last year because it's proprietary. And even deployed projects shouldn't be out in the wide open web, for example, a project I worked on for IBM Watson Health, as it is an internal only project. Same goes for the AV&C app. Both of those were React and Redux apps with Django back-end and I have learned a lot from building them.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can check out [Releaf App](https://releafapp.com/) though, in [App Store](https://itunes.apple.com/us/app/releaf-thoughtful-approach/id1108402819) and [Google Play Store](https://play.google.com/store/apps/details?id=com.releafapp.releaf) (or whatever it's called these days?), in fact I encourage you to! It's a great app, and it has a very touching goal. My involvement with it was limited, but I am proud to say I have contributed to it.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+However, I tried to show my growth in this website as much as I could. I also revisited some of my old projects, and while I didn't want to completely revamp them, as they do show my progress over time, I have redeployed them, away from gh-pages, and fixed up some stuff (like FullContact API I used in one of the projects had completely revamped the way you should be using it).
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I hope you find my site tasteful and nice to use.

@@ -1,0 +1,48 @@
+@import './style/_util.scss';
+
+.skills {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills__title {
+  margin-left: $gutter-small;
+}
+
+.skills__sections {
+  @media ($media-middle) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: $gutter-large;
+  }
+}
+
+.skills__section__tech {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $gutter-large;
+  @media ($media-middle) {
+    align-items: flex-end;
+    text-align: right;
+  }
+}
+
+.skills__section__additional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: $gutter-large;
+  @media ($media-middle) {
+    text-align: left;
+    align-items: flex-start;
+  }
+}
+
+.skills__tech__icon, .skills__add__icon {
+  text-shadow: 2px 2px 4px $color-gray;
+}

@@ -1,0 +1,9 @@
+@import './style/util';
+
+.app {
+  height: 100vh;
+  @media ($media-middle) {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+  }
+}

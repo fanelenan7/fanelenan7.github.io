@@ -1,0 +1,35 @@
+@import './style/util';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: $gutter-small;
+}
+
+.footer__nav__link:not(:first-of-type) {
+  margin-left: $gutter-small;
+}
+
+.footer__nav__link {
+  padding: 3px;
+}
+
+.footer__nav__link:hover {
+  background-color: $color-green;
+  color: $color-black;
+  box-shadow: 2px 2px 4px $color-gray;
+  transition: 0.5s ease;
+}
+
+.footer__links__link {
+  margin: $gutter-small;
+  text-shadow: 2px 2px 5px $color-gray;
+  transition: 0.2s ease;
+}
+
+.footer__links__link:hover {
+  color: $color-green;
+  text-shadow: 2px 2px 1px $color-gray;
+}
