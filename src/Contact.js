@@ -7,7 +7,7 @@ const Contact = () => (
     <h1>Contact Me</h1>
     <h2>Let's work together</h2>
     <ul className="contact__main">
-      <li><i className="fa fa-phone contact__main__icon"></i> 540.429.4447</li>
+      <li><i className="fa fa-phone contact__main__icon"></i> 540-429-4447</li>
       <li>
         <a className="contact__main__link" href="mailto:fanelenan7@gmail.com">
           <i className="fa fa-envelope contact__main__icon"></i> fanelenan7@gmail.com
@@ -26,7 +26,7 @@ const Contact = () => (
         </a>
       </li>
       <li>
-        <a className="contact__main__link" href="https://drive.google.com/file/d/1OChf9lSp0HF59OMw-Hf8BnH1joZaia4_/view?usp=sharing">
+        <a className="contact__main__link" href="https://docs.google.com/document/d/14d5AR56iHxUL_L0a9MeHoyV-xx7W9B__/edit?usp=sharing&ouid=118417887855558997619&rtpof=true&sd=true">
           <i className="fa fa-file contact__main__icon"></i>
           view / download resume
         </a>

@@ -1,58 +1,81 @@
 import React from 'react';
 
-import ibmwh from './assets/ibmwh.png';
-import avc from './assets/av&c.jpeg';
-import releaf from './assets/releaf.png';
 import coder from './assets/coder-ipsum.jpg';
 import people from './assets/people-finder.jpg';
 import tower from './assets/tower-of-hanoi.jpg';
-import mariana from './assets/mariana.png';
-import barrys from './assets/barrys.png';
-import brrrn from './assets/brrrn.png';
-import bikerbarre from './assets/bikerbarre.jpg';
-import sculpthouse from './assets/sculpthouse.png';
 
 import './Work.scss';
 
 const Work = () => (
   <article className="work">
     <section className="work__section">
-      <h2>Professional Work</h2>
-      <h3>I had the opportunity to work on projects for following companies</h3>
-      <ul className="work__prof">
-        <li className="work__prof__list">
-          <img className="work__prof__logo" src={mariana} alt="Barry's Bootcamp" />
-          <p>Mariana Tek</p>
-        </li>
-        <li className="work__prof__list">
-          <img className="work__prof__logo" src={barrys} alt="Barry's Bootcamp" />
-          <p>Barry's Bootcamp</p>
-        </li>
-        <li className="work__prof__list">
-          <img className="work__prof__logo" src={bikerbarre} alt="Biker Barre" />
-          <p>Biker Barre</p>
-        </li>
-        <li className="work__prof__list">
-          <img className="work__prof__logo" src={brrrn} alt="Barry's Bootcamp" />
-          <p>Brrrn</p>
-        </li>
-        <li className="work__prof__list">
-          <img className="work__prof__logo" src={sculpthouse} alt="Barry's Bootcamp" />
-          <p>Sculpthouse</p>
-        </li>
-        <li className="work__prof__list">
-          <img className="work__prof__logo" src={ibmwh} alt="IBM Watson Health" />
-          <p>IBM Watson Health</p>
-        </li>
-        <li className="work__prof__list">
-          <img className="work__prof__logo" src={avc} alt="AV&C" />
-          <p>AV&C</p>
-        </li>
-        <li className="work__prof__list">
-          <img className="work__prof__logo" src={releaf} alt="Releaf App" />
-          <p>Releaf App</p>
-        </li>
-      </ul>
+      <h2>Professional Experience</h2>
+      <h3>building excellence</h3>
+        <ul className="work__experience">
+          <li>
+            <h4>Software Engineer at <a className="work__pers__link" href="https://www.springhealth.com/">Spring Health</a></h4>
+            <h5>12/2021 – 03/2023</h5>
+            <p className="work__pers__text">
+              • Developed and maintained project user-facing project built in React.js with TypeScript and GraphQL
+              • Built new reusable components in React
+              • Updated the application to meet accessibility requirements
+              • Addressed long-standing bugs and UX issues filling the backlog
+              • Added testing to improve end-to-end testing coverage of the application using Cypress
+              • Helped update Next.js version
+              • Worked closely with design and project management team to implement planned features in timely manner.
+            </p>
+          </li>
+          <li>
+            <h4>Software Engineer at <a className="work__pers__link" href="https://www.precisetarget.com/">PreciseTarget</a></h4>
+            <h5>04/2021 – 10/2021</h5>
+            <p className="work__pers__text">
+              • Developed and maintained projects built in React.js with TypeScript
+              • Created front-end components for multiple applications (both new and already existing)
+              • Learned and adapted to a new stack while contributing to the projects
+              • Integrated front-end components with back-end API calls utilizing GraphQL.
+            </p>
+          </li>
+          <li>
+            <h4>Software Engineer at <a className="work__pers__link" href="https://www.capitalone.com/">Capital One</a></h4>
+            <h5>06/2019 – 02/2021</h5>
+            <p className="work__pers__text">
+              • Specialized in front-end on a mostly back-end team, and was responsible for maintaining and further development on all UI for team projects
+              • Updated existing projects to the latest React.js releases
+              • Provided guidance and support to the product team and other engineers on UI and UX questions
+              • Mentored new engineers on the team
+              • Created React components for the new project from scratch
+              • Utilized in-house UI library for a consistent look across multiple products
+              • Utilized MobX for state management
+              • Presented new features to the stakeholders
+              • Designed responsive mobile-first interfaces
+              • Used styled-components library.
+            </p>
+          </li>
+          <li>
+            <h4>Support Engineer at <a className="work__pers__link" href="https://www.marianatek.com/">Mariana Tek</a></h4>
+            <h5>04/2018 – 04/2019</h5>
+            <p className="work__pers__text">
+              • Triaged, investigated and documented incoming issues and bug reports
+              • Implemented bug fixes for both the front and back end of multiple applications utilizing Ember.js and Django
+              • Wrote end-to-end acceptance tests for new and existing code in Selenium
+              • Provided customer service colleagues with technical expertise
+              • Aided new clients integrating with the platform
+              • Created documentation website to support new client integration.
+            </p>
+          </li>
+          <li>
+            <h4>Software Developer at <a className="work__pers__link" href="http://automatastudios.com/">Automata Studios</a></h4>
+            <h5>05/2017 – 02/2018</h5>
+            <p className="work__pers__text">
+              • Worked in a fast-paced agile environment as a front-end developer, specializing in React.js
+              • Utilized React Native to support and update a mobile application
+              • Was responsible for the implementation, update, and maintenance of features and UI components of the company's various projects
+              • Built reusable components utilizing ReactJS, Redux, and SCSS
+              • Added tests in Jest
+              • Created static websites to support and compliment various projects.
+            </p>
+          </li>
+        </ul>
       <hr />
     </section>
     <section className="work__section">

@@ -8,7 +8,7 @@ body {
   background-image: linear-gradient(to right, #FF837D 0%, #FF5E8A 100%);
   cursor: default;
   @media ($media-middle) {
-    background-image: url('./assets/arrows.png'), linear-gradient(to right, #FF837D 0%, #FF5E8A 100%);
+    background-image: url('../assets/arrows.png'), linear-gradient(to right, #FF837D 0%, #FF5E8A 100%);
   }
 }
 

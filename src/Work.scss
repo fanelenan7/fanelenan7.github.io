@@ -57,7 +57,7 @@
 
 .work__pers__text {
   @media ($media-middle) {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -67,4 +67,10 @@
 
 .work__pers__link:hover {
   text-shadow: 2px 2px 4px $color-gray;
+}
+
+.work__experience {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
