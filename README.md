@@ -16,6 +16,4 @@ npm start
 
 ### Deployment
 
-Since it's a user page, it's deployed from the master branch. Run `npm run build`, which will create a production build and push it up on a `gh-pages` branch. That would be fine for a project, but again, since it's a user page url, things are a bit more complicated. You'll have to `git fetch` to get the prod build from the repo, then `git checkout gh-pages`. Then, to avoid unnecessary conflicts, `git branch -d master` to remove old master branch and `git checkout -b master` from the `gh-pages` branch.
-
-That would create a new `master` branch with the production build, all that's left is `git push --set-upstream origin master --force` to override the old build.
+Since it's a user page, it's deployed from the master branch. Run `npm run deploy`.
