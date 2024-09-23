@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.caf719d1.css",
+    "main.js": "/static/js/main.a1f9e194.js",
+    "static/media/coder-ipsum.jpg": "/static/media/coder-ipsum.c1f50e5e0bbf698e8072.jpg",
+    "static/media/tower-of-hanoi.jpg": "/static/media/tower-of-hanoi.b5a443d385d1308855e5.jpg",
+    "static/media/OpenSans-Light.ttf": "/static/media/OpenSans-Light.ec993defe70da9dbbc3f.ttf",
+    "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.9ccd5e1b1dbea150336d.ttf",
+    "static/media/portrait.jpg": "/static/media/portrait.ffc7b8d470bd31e05e2b.jpg",
+    "static/media/arrows.png": "/static/media/arrows.f4e5d63a3da3e4825d2b.png",
+    "static/media/people-finder.jpg": "/static/media/people-finder.c14ef6e9851836ce073f.jpg",
+    "index.html": "/index.html",
+    "main.caf719d1.css.map": "/static/css/main.caf719d1.css.map",
+    "main.a1f9e194.js.map": "/static/js/main.a1f9e194.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caf719d1.css",
+    "static/js/main.a1f9e194.js"
+  ]
+}
